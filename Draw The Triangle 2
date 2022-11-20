@@ -1,0 +1,15 @@
+set serveroutput on format wrapped;
+declare
+j CHAR(1):='*';
+k number;
+begin
+for i in 0 .. 19 loop
+k:=i;
+    while(k>0) loop
+     DBMS_OUTPUT.PUT(j||' ');
+        k:=k-1;
+    end loop;
+DBMS_OUTPUT.PUT_LINE(j);
+end loop;
+end;
+/
