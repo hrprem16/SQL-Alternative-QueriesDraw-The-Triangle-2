@@ -1,0 +1,1 @@
+# SQL-Alternative-QueriesDraw-The-Triangle-2
